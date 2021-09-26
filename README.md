@@ -10,6 +10,8 @@ A website for a fictional store that sells cupcakes, doughnuts and normal cakes.
 ```
    $ git clone https://github.com/andreassenmarvin/Sugar-stars.git
 
+```
+
 * Open your project on your favorite editor
 * Open project on Live Server
 ## Known Bugs
