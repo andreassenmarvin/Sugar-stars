@@ -21,9 +21,9 @@ $(function () {
         $(".cart").hide();
     })
 
-    $(".newsletter-form").submit(function(event) {
+    $(".newsletter-form").submit(function (event) {
         event.preventDefault();
         alert("Thank you for subscribing!");
-        $(".newsletter-form").trigger("reset"); 
+        $(".newsletter-form").trigger("reset");
     })
 })

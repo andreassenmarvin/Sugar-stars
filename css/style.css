@@ -181,6 +181,7 @@ body {
   z-index: -1;
   transition: all 1s ease-in-out;
 }
+
 .about-img__container:hover:before {
   top: 0;
   left: 0;
@@ -192,17 +193,21 @@ body {
 .store {
   background: var(--mainGrey);
 }
+
 .img-container {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
+
 .store-img {
   transition: all 1s ease-in-out;
 }
+
 .img-container:hover .store-img {
   transform: scale(1.2);
 }
+
 .store-item-icon {
   position: absolute;
   bottom: 0;
@@ -213,15 +218,19 @@ body {
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
 }
+
 .img-container:hover .store-item-icon {
   transform: translate(0, 0);
 }
+
 .store-item-icon:hover {
   color: var(--mainWhite);
 }
+
 .store-item-value {
   color: --mainYellow;
 }
+
 /*end of  store items */
 .search-box {
   background: var(--mainPink);
@@ -240,6 +249,7 @@ body {
   background: rgba(0, 0, 0, 0.6) !important;
   display: none;
 }
+
 .show {
   display: block;
 }
@@ -247,17 +257,20 @@ body {
 .lightbox-holder {
   position: relative;
 }
+
 .lightbox-item {
   min-height: 80vh;
   background: url("../img/cake-1.jpeg") center/cover fixed no-repeat;
   border-radius: 0.3rem;
 }
+
 .lightbox-close {
   color: var(--mainPink);
   font-size: 3rem;
   transition: all 1s ease-in-out;
   cursor: pointer;
 }
+
 .lightbox-close:hover {
   color: var(--mainYellow);
 }
@@ -269,14 +282,17 @@ body {
   transition: all 1s linear;
   cursor: pointer;
 }
+
 .lightbox-control:hover {
   color: var(--mainYellow);
 }
+
 .btnLeft {
   top: 50%;
   left: 0;
   transform: translateX(-60%);
 }
+
 .btnRight {
   top: 50%;
   right: 0;
@@ -285,33 +301,33 @@ body {
 
 /* footer */
 
-footer.footer{
+footer.footer {
   height: auto;
   background: var(--mainPink);
   position: relative;
 }
 
-footer.footer .container{
+footer.footer .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-footer.footer .container > div{
+footer.footer .container>div {
   flex-grow: 1;
   flex-basis: 0;
   padding: 3rem .9rem;
 }
 
-footer.footer .container h2{
+footer.footer .container h2 {
   color: var(--white);
 }
 
-footer.footer .newsletter .form-element{
+footer.footer .newsletter .form-element {
   background: wheat;
   display: inline-block;
 }
 
-footer.footer .newsletter .form-element input{
+footer.footer .newsletter .form-element input {
   padding: .5rem .7rem;
   border: none;
   background: transparent;
@@ -321,7 +337,7 @@ footer.footer .newsletter .form-element input{
   width: 74%;
 }
 
-footer.footer .newsletter .form-element span{
+footer.footer .newsletter .form-element span {
   background: var(--sky);
   padding: .5rem .7rem;
   cursor: pointer;
@@ -332,26 +348,26 @@ footer.footer .follow {
   right: 150px;
 }
 
-footer.footer .follow div i{
+footer.footer .follow div i {
   color: var(--white);
   padding: 0 .4rem;
   cursor: pointer;
 }
 
-footer.footer .rights{
+footer.footer .rights {
   justify-content: center;
   font-family: var(--Josefin);
 }
 
-footer.footer .rights h4 a{
+footer.footer .rights h4 a {
   color: var(--white);
 }
 
-footer.footer .move-up span{
+footer.footer .move-up span {
   color: var(--midnight);
 }
 
-footer.footer .move-up span:hover{
+footer.footer .move-up span:hover {
   color: var(--white);
   cursor: pointer;
 }
