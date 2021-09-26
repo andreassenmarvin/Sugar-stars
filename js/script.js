@@ -3,11 +3,11 @@ $(function () {
         $(".cart").toggle();
     })
 
-    $("#clear-cart").click(function() {
+    $("#clear-cart").click(function () {
         $(".cart").hide();
     })
 
-    $("#checkout-cart").click(function() {
+    $("#checkout-cart").click(function () {
         alert("Thank you for shopping with us!");
         $(".cart").hide();
     })
