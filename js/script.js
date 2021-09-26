@@ -20,4 +20,10 @@ $(function () {
         alert("Thank you for shopping with us!");
         $(".cart").hide();
     })
+
+    $(".newsletter-form").submit(function(event) {
+        event.preventDefault();
+        alert("Thank you for subscribing!");
+        $(".newsletter-form").trigger("reset"); 
+    })
 })
