@@ -1,4 +1,13 @@
 $(function () {
+    $nav = $('#navbar');
+    $toggleCollapse = $('.toggle-collapse');
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $("#navbar").css("top", 0);
+        }
+    })
+
     $("#cart-info").click(function () {
         $(".cart").toggle();
     })
